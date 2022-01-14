@@ -7,7 +7,7 @@ https://code.visualstudio.com/
 
 Once installed, the initial pop-up window should look like this. 
 
-![Image](vscodetut.png)
+![Image](vscodetut.PNG)
 
 **Step 2: Remotely Connecting with OpenSSH**
 
@@ -38,7 +38,7 @@ Try running some of these basic commands into your terminal:
 * ls -a
 ```
 Running "ls-a" will give you the following prompt: 
-![Image](basiccommandex.png)
+![Image](basiccommandex.PNG)
 
 **Step 4: Moving Files using `scp`**
 
@@ -60,7 +60,7 @@ scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/
 ```
 You should see here that the OS has changed from Windows to Linux after running the code in the terminal.
 
-![Image](lol.png)
+![Image](lol.PNG)
 
 **Step 5: Setting an SSH Key**
 
@@ -106,7 +106,7 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 You should now be able to log in without inputting your password.
 
-![Image](lol2.png)
+![Image](lol2.PNG)
 
 **Step 6: Optimizing Remote Running**
 
@@ -114,7 +114,7 @@ You should now be able to log in without inputting your password.
 
 *Here, I have used the up-arrow key on the terminal to recall the previous function `ls-a`.*
 
-![Image](lol3.png)
+![Image](lol3.PNG)
 
 
 **You should now be able to remotely access a remote server using your CSE15L account.**
