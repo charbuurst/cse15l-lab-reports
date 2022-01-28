@@ -1,15 +1,17 @@
 # Week 1: Gaining Remote Access
 
-**Step 1: Installing VSCode**
+### **Step 1: Installing VSCode**
 
 Click the link and follow the proper instructions to install Visual Studio Code to your computer. 
+
 https://code.visualstudio.com/
+
 
 Once installed, the initial pop-up window should look like this. 
 
 ![Image](vscodetut.PNG)
 
-**Step 2: Remotely Connecting with OpenSSH**
+### **Step 2: Remotely Connecting with OpenSSH**
 
 *Here, we have assumed that you already have access to your course-specific account for CSE15L.*
 
@@ -28,7 +30,7 @@ Replace the "abc" with your course specific account for CSE15L. Once logged in i
 
 ![Image](examplepic.png)
 
-**Step 3: Running some Commands**
+### **Step 3: Running some Commands**
 
 Try running some of these basic commands into your terminal:
 ```
@@ -40,7 +42,7 @@ Try running some of these basic commands into your terminal:
 Running "ls-a" will give you the following prompt: 
 ![Image](basiccommandex.PNG)
 
-**Step 4: Moving Files using `scp`**
+### **Step 4: Moving Files using `scp`**
 
 First, create a file on your computer called `WhereAmI.java` and copy-paste the following code:
 
@@ -62,7 +64,7 @@ You should see here that the OS has changed from Windows to Linux after running 
 
 ![Image](lol.PNG)
 
-**Step 5: Setting an SSH Key**
+### **Step 5: Setting an SSH Key**
 
 
 Run this to set up your SSH Key:
@@ -108,7 +110,7 @@ You should now be able to log in without inputting your password.
 
 ![Image](lol2.PNG)
 
-**Step 6: Optimizing Remote Running**
+### **Step 6: Optimizing Remote Running**
 
 - You can use the up-arrow key to recall previous commands you have ran in the terminal.
 
